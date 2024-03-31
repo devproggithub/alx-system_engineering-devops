@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#bash script thst uses ssh to connect to your servsr using the ptivate
+#key ~/.ssh/school with the user ubuntu
+ssh ubuntu@54.175.225.6 -i ~/.ssh/id_rsa
