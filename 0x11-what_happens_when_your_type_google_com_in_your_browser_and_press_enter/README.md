@@ -1,7 +1,14 @@
 What happens when you type google.com in your browser
 
 ------------------------------------------------------
+Based on the information I found, when the “g” key is pressed in the browser, the following happens:
 
+The browser receives the event and the auto-complete functions kick in.
+Depending on your browser’s algorithm and if you are in private/incognito mode or not, various suggestions will be presented to you in the dropdown below the URL bar.
+Most of these algorithms sort and prioritize results based on search history, bookmarks, cookies, and popular searches from the internet as a whole.
+As you are typing “google.com”, many blocks of code run and the suggestions will be refined with each key press.
+It may even suggest “google.com” before you finish typing it.
+----------------------------------------------------------
 Q: What happens when you type google.com in your browser?
 
 Upon typing in "google.com" and pressing Enter, the browser takes a number of steps which can be outlined as:
