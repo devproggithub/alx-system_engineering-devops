@@ -1,7 +1,10 @@
-# SSH Config File
-#
-Host web-01
-	Hostname 35.168.2.43
-	User ubuntu
+#!/usr/bin/env bash
+# SSH client configuration
+
+Host *
 	PasswordAuthentication no
 	IdentityFile ~/.ssh/school
+        SendEnv LANG LC_*
+        HashKnownHosts yes
+        GASSPIAuthentication yes
+        GASSPIDelegateCredentials no
