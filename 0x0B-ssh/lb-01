@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# Connects to my school server
-ssh -i ~/.ssh/id_rsa  ubuntu@100.26.221.104
+# Connects to my school sever
+ssh -i ~/.ssh/id_rsa  ubuntu@100.26.165.33
